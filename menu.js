@@ -33,7 +33,7 @@ $(document).ready(function(){
 		}
 		if (!target.closest('.submenu_st,.menu_punkt_st,.more_button_st')){ 
 			//$('.more_button_ac,.submenu_ac,.menu_punkt_ac').removeClass('active');
-			$('.more_button_st,.submenu_st,menu_punkt_st').removeClass('active');
+			$('.more_button_st,.submenu_st,.menu_punkt_st').removeClass('active');
 			//$('.more_button_de,.submenu_de,.menu_punkt_de').removeClass('active');
 		}
 		if (!target.closest('.submenu_ac,.menu_punkt_ac,.more_button_ac')){ 
