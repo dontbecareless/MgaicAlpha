@@ -332,15 +332,44 @@ html,body {
 .search_menu{
 	height:100vh;
 	width:100vw;
-	background-color:white;
 	position: fixed;
-	z-index:100;
-	opacity:50%;
 	z-index:3;
 	margin-left:-8px;
-	margin-top:54px;
+	margin-top:-100vh;
+	background: linear-gradient(rgba(179,179,179,0.9), rgba(179,179,179,0.9));
+	opacity:0%;
+	transition:  all 0.3s ease 0s;
 }
 .search_menu_button{
-	width:35px;
-	height:40px;
+	width:40px;
+	height:55px;
+	display:flex;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	margin-top:45px;
+	margin-left:5px;
+}
+.search_menu_field{
+	display:flex;
+	font-family: 'Jost', normal;
+	font-size: 20px;
+	height:50px;
+	margin: 0px;
+	border: 0px;
+	padding:0px;
+	text-align:center;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	width:70vw;
+	margin-left:15vw;
+	border-bottom:3px solid black;
+	background:none;
+	margin-top:40px	
+}
+.search_menu.active{
+	margin-top:54px;
+	opacity:100%;
+	transition:  all 0.3s ease 0s;
 }

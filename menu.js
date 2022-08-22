@@ -24,6 +24,13 @@ $(document).ready(function(){
 	});
 	
 	
+	$('.search_button').click(function(event){
+		$('.search_button,.search_menu').toggleClass('active');
+	});
+	
+	
+	
+	
 	window.addEventListener('click', e => { 
 		const target = e.target
 		if (!target.closest('.submenu_de,.menu_punkt_de,.more_button_de')){ 
