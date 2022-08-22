@@ -78,14 +78,12 @@ html,body {
 	font-family: 'Jost', normal;
 	display:flex;
 	margin-top:0px;
-
 }
 .menu_punkt_st:hover{
 	color: #c1272d;
 	font-size: 25px;
 	transition:  font-size 0.3s ease 0s;
 	margin-top:5px;
-
 }
 .menu_punkt_st.active{
 	color: #c1272d;
@@ -112,6 +110,13 @@ html,body {
 	margin-top:5px;
 
 }
+.menu_punkt_de.active{
+	color: #c1272d;
+	font-size: 25px;
+	transition:  font-size 0.3s ease 0s;
+	margin-top:5px;
+
+}
 .menu_punkt_ac{
 	list-style:none;
 	color: white;
@@ -124,6 +129,13 @@ html,body {
 
 }
 .menu_punkt_ac:hover{
+	color: #c1272d;
+	font-size: 25px;
+	transition:  font-size 0.3s ease 0s;
+	margin-top:5px;
+
+}
+.menu_punkt_ac.active{
 	color: #c1272d;
 	font-size: 25px;
 	transition:  font-size 0.3s ease 0s;
@@ -198,6 +210,9 @@ html,body {
 }
 
 
+
+
+
 .search_button{
 	margin-left: 100px;
 	width:20px;
@@ -205,23 +220,26 @@ html,body {
 	margin-right: 10px;
 	display: block;
 	margin-top: -8px;
-
-	
+	transition:  all 0.3s ease 0s;
 }
 .search_button_circle{
 	width:20px;
 	height:20px;
 	border: 6px solid white;
 	border-radius: 100%;
-	margin-left:13px
+	margin-left:13px;
+	background-color:#2a307a;
+
 }
 .search_button_stick{
 	border-right: 6px solid white;
-	width:10px;
 	height:25px;
 	transform: rotate(45deg);
 	margin-top:-14px;
+
 }
+
+
 
 
 .submenu_punkt_text{
@@ -304,8 +322,29 @@ html,body {
 }
 .more_button_de.active{
 	transition:  all 0.3s ease 0s;
+	transform: rotate(135deg);	
+	margin-right: -5px;
+	margin-left: 5px
 }
 .more_button_ac.active{
 	transition:  all 0.3s ease 0s;
+	transform: rotate(135deg);	
+	margin-right: -5px;
+	margin-left: 5px
 }
 
+
+
+
+
+.search_field{
+	height:100vh;
+	width:100vw;
+	background-color:white;
+	position: fixed;
+	z-index:100;
+	opacity:50%;
+	z-index:3;
+	margin-left:-8px;
+	margin-top:54px;
+}
