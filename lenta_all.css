@@ -17,7 +17,7 @@ html,body {
 	height: 80px;
 	background-color: #2a307a;
 	left: 0;
-	z-index: 4;
+	z-index: 5;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -49,9 +49,7 @@ html,body {
 }
 .menu_punkt:hover{
 	color: #c1272d;
-	font-size: 25px;
-	transition:  font-size 0.3s ease 0s;
-	margin-top:5px;
+	transition:  all 0.3s ease 0s;
 
 }
 
@@ -61,7 +59,7 @@ html,body {
 	text-decoration: none;
 	display: flex;
 	font-family: 'Jost', normal;
-	transition:  font-size 0.3s ease 0s;
+	transition:  color 0.3s ease 0s;
 	margin-top:-8px;
 	width:default;
 	height:default;
@@ -81,9 +79,7 @@ html,body {
 }
 .menu_punkt_st:hover{
 	color: #c1272d;
-	font-size: 25px;
-	transition:  font-size 0.3s ease 0s;
-	margin-top:5px;
+	transition:  all 0.3s ease 0s;
 }
 .menu_punkt_st.active{
 	color: #c1272d;
@@ -105,9 +101,7 @@ html,body {
 }
 .menu_punkt_de:hover{
 	color: #c1272d;
-	font-size: 25px;
-	transition:  font-size 0.3s ease 0s;
-	margin-top:5px;
+	transition:  all 0.3s ease 0s;
 
 }
 .menu_punkt_de.active{
@@ -130,9 +124,7 @@ html,body {
 }
 .menu_punkt_ac:hover{
 	color: #c1272d;
-	font-size: 25px;
-	transition:  font-size 0.3s ease 0s;
-	margin-top:5px;
+	transition:  all 0.3s ease 0s;
 
 }
 .menu_punkt_ac.active{
@@ -270,7 +262,7 @@ html,body {
 	position:fixed;
 	background-color:#2a307a;
 	margin-left:1225px;
-	z-index:3;
+	z-index:4;
 	padding:10px;
 	top:-100px;
 	transition:  all 0.3s ease 0s;
@@ -280,7 +272,7 @@ html,body {
 	position:fixed;
 	background-color:#2a307a;
 	margin-left:1407px;
-	z-index:3;
+	z-index:4;
 	padding:10px;
 	top:-100px;
 	transition:  all 0.3s ease 0s;
@@ -290,7 +282,7 @@ html,body {
 	position:fixed;
 	background-color:#2a307a;
 	margin-left:1622px;
-	z-index:3;
+	z-index:4;
 	padding:10px;
 	top:-100px;
 	transition:  all 0.3s ease 0s;
@@ -337,7 +329,7 @@ html,body {
 
 
 
-.search_field{
+.search_menu{
 	height:100vh;
 	width:100vw;
 	background-color:white;
@@ -347,4 +339,8 @@ html,body {
 	z-index:3;
 	margin-left:-8px;
 	margin-top:54px;
+}
+.search_menu_button{
+	width:35px;
+	height:40px;
 }
