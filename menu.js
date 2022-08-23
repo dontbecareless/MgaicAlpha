@@ -48,5 +48,10 @@ $(document).ready(function(){
 			//$('.more_button_st,.submenu_st,menu_punkt_st').removeClass('active');
 			//$('.more_button_de,.submenu_de,.menu_punkt_de').removeClass('active');
 		}
+		if (!target.closest('.search_menu,.search_button')){ 
+			$('.search_button,.search_menu').removeClass('active');
+			//$('.more_button_st,.submenu_st,menu_punkt_st').removeClass('active');
+			//$('.more_button_de,.submenu_de,.menu_punkt_de').removeClass('active');
+		}
 	})
 });
