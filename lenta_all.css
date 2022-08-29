@@ -239,10 +239,9 @@ html,body {
 .lenta_img{
 	width:25vw;
 	height:25hv;
-	margin-left:12vw;
+	margin-left:10vw;
 	border-radius:30px 30px 0px 0px;
 	margin-bottom:-4px;
-	margin-right:17vw;
 	border-top: 20px solid #c1272d;
 	border-left: 20px solid #c1272d;
 	border-right: 20px solid #c1272d;
@@ -267,10 +266,9 @@ html,body {
 }
 .txt_and_autor{
 	display:flex;
-	margin-left:12vw;
+	margin-left:10vw;
 	width:32vw;
 	justify-content: space-between;
-	margin-right:15vw;
 	margin-bottom:30px;
 	align-items: center;
 	border:20px solid #c1272d;
@@ -311,4 +309,24 @@ html,body {
 	border-radius:50%;
 	display:flex;
 	float:right;
+}
+
+.foot{
+	width: 100vw;
+	height: 27vh;
+	background-color:#2a307a;
+	margin-left:-8px;
+}
+.foot_text_box{
+	display:block;
+	margin-right:1vw;
+}
+.foot_text_menu{
+	display:flex;
+	margin-left:3vw;
+}
+.foot_a{
+	display:block;
+	font-family: 'Jost', normal;
+	color: #b3b3b3;
 }
