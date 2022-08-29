@@ -236,10 +236,14 @@ html,body {
 .cont{
 	display:block
 }
+.img_a{
+	display:inline-block;
+	width: 38vw;
+	margin-left: 10vw;
+}
 .lenta_img{
 	width:25vw;
-	height:25hv;
-	margin-left:10vw;
+	height:25vh;
 	border-radius:30px 30px 0px 0px;
 	margin-bottom:-4px;
 	border-top: 20px solid #c1272d;
@@ -249,7 +253,7 @@ html,body {
 	background-color:#2a307a;
 	padding-left:5.5vw;
 	padding-right:5.5vw;
-
+	display:inline-block;
 }
 .lenta_block{
 	align-items: center;
@@ -300,7 +304,7 @@ html,body {
 	color: white;
 	font-size:1.5vw;
 	display:flex;
-	margin-right:5px;
+	margin-right:10px;
 	text-decoration: none;
 	float:right;
 }
@@ -311,22 +315,56 @@ html,body {
 	float:right;
 }
 
+
+
+
+
 .foot{
 	width: 100vw;
-	height: 27vh;
+	height: 9vw;
 	background-color:#2a307a;
 	margin-left:-8px;
+	padding-top:1vw;
 }
 .foot_text_box{
 	display:block;
 	margin-right:1vw;
+	background-color:#2a307a;
 }
 .foot_text_menu{
 	display:flex;
-	margin-left:3vw;
+	justify-content:space-between;
+	width:75vw;
+	margin-left:5vw;
+	background-color:#2a307a;
+	height:6vw;
 }
 .foot_a{
 	display:block;
 	font-family: 'Jost', normal;
 	color: #b3b3b3;
+	margin-bottom:0.3vw;
+
+}
+
+.foot_contacts_cop{
+	width:98vw;
+	height:3vw;
+	background-color:#2a307a;
+	justify-content:space-between;
+	display:flex;
+	padding-left:1vw;
+	align-items:end;
+}
+.foot_contacts{
+	font-family: 'Jost', normal;
+	color: #b3b3b3;
+	display:flex;
+
+}
+.foot_cop{
+	font-family: 'Jost', normal;
+	color: #b3b3b3;
+	display:flex;
+
 }
