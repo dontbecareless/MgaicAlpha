@@ -238,41 +238,42 @@ html,body {
 }
 .img_a{
 	display:inline-block;
-	width: 38vw;
-	/*margin-left: 5vw;*/
+	width: 25vw;
 }
 .lenta_img{
 	width:25vw;
 	height:25vh;
 	border-radius:45px;
-	/*border-top: 20px solid #c1272d;
-	border-left: 20px solid #c1272d;
-	border-right: 20px solid #c1272d;
-	padding:2vw;
-	background-color:#2a307a;
-	padding-left:5.5vw;
-	padding-right:5.5vw;*/
-	display:inline-block;
+	display:inline-block	;
 	margin-left:7.5vw;
 	margin-bottom:1vh;
+	transition:  all 0.3s ease 0s;
+}
+.lenta_img:hover{
+	width:30vw;
+	height:30vh;
+	margin-left:5vw;
+	transition:  all 0.3s ease 0s;
+
 }
 .lenta_block{
 	align-items: center;
 	display:block;
 	width:40vw;
 	
-	margin-left:30vw;
-	margin-right:30vw;
+	margin-left:29vw;
+	margin-right:29vw;
 	
 	display: block;
 	background-color: #b3b3b3;
 	padding-top: 10px;
 	align-items: center;
-	margin-bottom:50px;
+	margin-bottom:2vh;
 	padding-bottom:10px;
 	border-radius:45px;
 	padding-left: 1vw;
 	padding-right: 1vw;
+	margin-top:2vh;
 }
 .txt_and_autor{
 	display:flex;
@@ -298,6 +299,12 @@ html,body {
 	display:flex;
 	width:15vw;
 	text-decoration: none;
+	transition:  all 0.3s ease 0s;
+}
+.txt:hover{
+	transition:  all 0.3s ease 0s;
+	color:#c1272d;
+	font-size:2.2vw;
 }
 .autor{
 	width:15vw;
@@ -314,14 +321,24 @@ html,body {
 	margin-right:10px;
 	text-decoration: none;
 	float:right;
+	transition:  all 0.3s ease 0s;
+}
+.autor_text:hover{
+	transition:  all 0.3s ease 0s;
+	color:#c1272d;
+	font-size:2.2vw;
 }
 .autor_img{
 	width:4vw;
 	border-radius:50%;
 	display:flex;
 	float:right;
+	transition:  all 0.3s ease 0s;
 }
-
+.autor_img:hover{
+	transition:  all 0.3s ease 0s;
+	width:5vw;
+}
 
 
 
@@ -351,7 +368,12 @@ html,body {
 	font-family: 'Jost', normal;
 	color: #b3b3b3;
 	margin-bottom:0.3vw;
+	transition:  all 0.3s ease 0s;
 
+}
+.foot_a:hover{
+	transition:  all 0.3s ease 0s;
+	color:white;
 }
 
 .foot_contacts_cop{
